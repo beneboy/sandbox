@@ -24,6 +24,7 @@ Other articles in this series for other formats / sites:
 - [Google Docs](https://hub.stenci.la/open/https://docs.google.com/document/d/1BW6MubIyDirCGW9Wq-tSqCma8pioxBI6VpeLyXn5mZA)
 - [HackMD](https://hub.stenci.la/open/https://hackmd.io/RaFYCFoyTlODFxz5hPevLw)
 
+_Please note that this example is a work in progress._
 
 ## CommonMark
 
