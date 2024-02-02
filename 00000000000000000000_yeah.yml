@@ -1,0 +1,14 @@
+version: "1.0"
+tasks:
+  - type: mask_table
+    table: books
+    # To improve performance, consider specifying multiple workers (workers >1) and increasing batch size.
+    # workers: 2
+    key: BID
+    rules: 
+      - column: title
+        masks:
+          - type: from_file
+            seed_file: DataMasque_US_addresses_large.csv
+            seed_column: city
+            seed_filter_column: author
