@@ -1,0 +1,10 @@
+version: "1.0"
+tasks:
+  - type: mask_table
+    table: REPLACE_ME
+    key: REPLACE_ME
+    rules: 
+      - column: REPLACE_ME
+        masks:
+          - type: from_fixed
+            value: REPLACE_ME
