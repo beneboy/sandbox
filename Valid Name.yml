@@ -1,0 +1,13 @@
+version: "1.0"
+tasks:
+  - type: run_data_discovery
+  - type: mask_table
+    table: REPLACE_ME
+    # To improve performance, consider specifying multiple workers (workers >1) and increasing batch size.
+    # workers: 2
+    key: REPLACE_ME
+    rules: 
+      - column: REPLACE_ME
+        masks:
+          - type: from_fixed
+            value: REPLACE_ME
