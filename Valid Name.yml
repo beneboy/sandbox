@@ -10,4 +10,4 @@ tasks:
       - column: REPLACE_ME
         masks:
           - type: from_fixed
-            value: REPLACE_ME6
+            value: REPLACE_ME7
